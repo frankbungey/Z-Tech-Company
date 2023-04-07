@@ -91,14 +91,16 @@
     border-radius: 25px;
 }
 h1{
-    font-size: 30px;
-    color: #CcC;
-    display: inline-block;
+    position: absolute;
+    left: 6rem;
+    top: 16px;
+    color:#CCC;
 }
 h2{
     text-align: center;
     margin-top: 20%;
-    font-size: 25px;;
+    font-size: 25px;
+    color:#494646;
 }
 p{
     text-align: center;

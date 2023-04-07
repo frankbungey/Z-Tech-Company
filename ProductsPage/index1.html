@@ -1,54 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProductsPage</title>
-    <link rel="stylesheet" href="/Z-Tech-Company/ProductsPage/style1.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProductsPage</title>
+  <link rel="stylesheet" href="/Z-Tech-Company/ProductsPage/style1.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div>
+  <div>
     <div class="head">
-        <img class="logo" src="/Z-Tech-Company/IMAGES/comp1.jpg" height="50px" width="50px">
-        <button>
-    <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
-    <img class="cart" src="data:image/png;base64,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" height="50px" width="50px">
-    </button>
-
-        
-
+      <img class="logo" src="/Z-Tech-Company/IMAGES/comp1.jpg" height="50px" width="50px">
+      <button><a>
+          <img class="cart"
+            src="data:image/png;base64,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"
+            height="50px" width="50px">
+        </a>
+      </button>
     </div>
     <div class="images">
-        <div class="products">
-        <img class="img" src="/Z-Tech-Company/IMAGES/pic5.jpg" height="200px" width="300px">
-        <input class="btn1" type="button" value="Add to Cart">
-        </div>
-
-        <div class="products">
-            <img class="img" src="/Z-Tech-Company/IMAGES/pic5.jpg" height="200px" width="300px">
-            <input class="btn1" type="button" value="Add to Cart">
-            </div>
-
-            <div class="products">
-                <img class="img" src="/Z-Tech-Company/IMAGES/pic5.jpg" height="200px" width="300px">
-                <input class="btn1" type="button" value="Add to Cart">
-                </div>
-
-                <div class="products">
-                    <img class="img" src="/Z-Tech-Company/IMAGES/pic5.jpg" height="200px" width="300px">
-                    <input class="btn1" type="button" value="Add to Cart">
-                    </div>
-
-                    <div class="products">
-                        <img class="img" src="/Z-Tech-Company/IMAGES/pic5.jpg" height="200px" width="300px">
-                        <input class="btn1" type="button" value="Add to Cart">
-                        </div>
-
-        
-        
     </div>
-</div>
+  </div>
+  <script src="script1.js"></script>
 </body>
+
 </html>
