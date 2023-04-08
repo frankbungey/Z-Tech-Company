@@ -12,14 +12,9 @@ body{
 .cart{
     position: absolute;
     right: 20px;
-    top: 20px;
-    border-radius: 25px;;
-}
-.logo{
+    top: 8px;
     border-radius: 25px;
-    position:absolute;
-    left: 20px;
-    top: 10px;
+    z-index: 1px;
 }
 h1{
     display: inline-block;
@@ -27,16 +22,15 @@ h1{
 .images{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .img{
     position: relative;
     top: 30px;
 }
 .btn1{
-    display: flex;
     position: absolute;
-    top: 85%;
+    top: 80%;
     color : #fff;
     background-color: green;
     border: none;
@@ -64,14 +58,14 @@ h1{
 .products p{
     display: flex;
     position: absolute;
-    top: 48%;
+    top: 50%;
     left: 20px;
     font-size: 20px;
 }
 .des{
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 20px;
     margin-bottom: 30px;
 }
