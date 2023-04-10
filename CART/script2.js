@@ -9,6 +9,7 @@ items.forEach(item=>{
             <img class="img" src="${item.imageUrl}" height="200px" width="300px">
             <h2 class="des"><u>${item.name}</u></h2>
             <p>
+               Amount: ${item.amount} <br><br>
                 ${item.description}
             </p>
             <input class="btn2" type="button" value="Remove from Cart" id="${item.id}">
