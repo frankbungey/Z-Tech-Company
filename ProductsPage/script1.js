@@ -73,4 +73,4 @@ buttonAddToCart.forEach(button => {
 
 const yourCart = document.querySelector('.cart').addEventListener('click', function () {
     location.href = "/Z-Tech-Company/CART/index2.html";
-})
+})j

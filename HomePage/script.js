@@ -7,3 +7,6 @@ const linkOne = document.querySelector(".link1").addEventListener("click",functi
 const imageCart = document.querySelector(".cart").addEventListener('click',function(){
     
 })
+const linkTwo = document.querySelector(".link2").addEventListener("click",function(){
+    location.href="/Z-Tech-Company/Contact Us/index3.html"
+})
