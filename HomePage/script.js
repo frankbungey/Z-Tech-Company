@@ -8,5 +8,8 @@ const imageCart = document.querySelector(".cart").addEventListener('click',funct
     
 })
 const linkTwo = document.querySelector(".link2").addEventListener("click",function(){
-    location.href="/Z-Tech-Company/Contact Us/index3.html"
+    location.href="/Z-Tech-Company/ContactUs/index3.html"
+})
+const linkThree = document.querySelector(".link3").addEventListener("click",function(){
+    location.href="/Z-Tech-Company/AboutUs/index4.html"
 })
