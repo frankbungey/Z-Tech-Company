@@ -5,6 +5,17 @@
 body{
     background-color: rgb(137, 135, 135);
 }
+.header{
+ position: absolute;
+ width: 50%;
+ top: 10px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 20%;
+    color: white;
+}
 .head{
     display: flex;
     justify-content: space-evenly;
