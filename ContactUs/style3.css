@@ -3,23 +3,66 @@
     padding: 0;
 }
 body{
-    display: flex;
-    background-color: rgb(247, 245, 243);
+    background-color: rgb(0, 0, 0);
     position: relative;
     width: 100%;
     height: 100vh;
 }
+.contact-us{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.head{
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #575757;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    margin-left: 5%;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+  }
 h1{
     text-align: center;
     margin-top: 20px;
 }
 .hero{
+    background-color: rgb(164, 164, 164);
+    background-position: center;
     position : absolute;
     right: 5%;
     top: 10%;
-    border: solid rgb(0, 0, 0) 1px;
+    border: solid rgb(102, 102, 102) 1px;
     width: 50%;
     height: 80%;
+    color: #000000
 }
 .inputs,.inputs1,.message{
     height: 32px;
@@ -30,6 +73,9 @@ h1{
     padding: 30px 20px;
     font-size: 20px;
     border: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color:#fff;
 }
 .inputs1{
     position: absolute;
@@ -58,22 +104,51 @@ h1{
 .text{
     position: absolute;
     top: 20%;
-    right: 10px;
+    right: 20px;
 }
 .pic{
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 1%;
     border-radius: 10px;
 }
-.header{
+
+@media only screen and (max-width: 800px){
+   .hero{
+    display: block;
+    margin-left: 20px;
+    height: 90vh;
+    width: 100%;
+   }
+   .pic{
+    width:100%;
+    display: column
+   }
+   .text{
+    display:inline-block;
     position: absolute;
-    right: 20px;
-    width: 50%;
-    top: 20px;
+    top: 72%;
+    right: 1;
+    overflow: none;
+   }
 }
-.header a{
-    text-decoration: none;
+h2{
+    font-size: 30px;
+}
+p{
     font-size: 20px;
-    margin-left: 20%;
+}
+.outlet{
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    height: 32px;
+    width: 50%;
+    padding: 1rem;
+    color: #ffff;
+    background-color: #051b14;
+    border:1px solid  green;
+    border-radius: 5px;
+    display: none;
+    text-align: center;
 }

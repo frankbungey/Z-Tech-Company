@@ -19,6 +19,30 @@
     background-color: #fff;
     color: black;
 }
+.heading{
+    background-color: #1b1b1b;
+    color: #fff;
+    position:fixed;
+    width: 100%;
+    height: 5rem;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont{
+    display: flex;
+}
+.home{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: arial, 'Roboto';
+
+}
 .text{
     height: 50px;
     width: auto;
@@ -33,6 +57,8 @@
     align-items: center;
     justify-content: center;
     object-fit: contain;
+    position: absolute;
+    top: 0;
 }
 .box{
     display: flex;
@@ -71,36 +97,47 @@
 }
 .link1,.link2,.link3{
     text-decoration: none;
-    color: #494646;
-    margin: 40px;
+    color: #ffffff;
+    margin: 2rem;
     font-size: 25px;
     cursor: pointer;
+    left: 50%;
+    display: flex;
+    position: relative;
 
 }
-.home{
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+.link1:hover,.link2:hover,.link3:hover{
+    background-color: #9c9a9a;
+    color: #fff;
+    padding: 20px 20px;
+}
+form{
+    position: relative;
+    display: flex;
+    left: 50%;
+    margin-top: 10px;
     font-size: 20px;
     font-family: arial, 'Roboto';
-
 }
+
 .logo{
-    margin-top: 20px;
+    position: absolute;
+    left : 5px;
+    top: 1rem;
     margin-left: 20px;
     border-radius: 25px;
 }
 h1{
     position: absolute;
-    left: 6rem;
-    top: 16px;
+    left: 5rem;
+    top: 2px;
     color:#CCC;
 }
 h2{
     text-align: center;
     margin-top: 20%;
     font-size: 25px;
-    color:#494646;
+    color:#000000;
 }
 p{
     text-align: center;
@@ -115,4 +152,16 @@ p{
     color: blue;
     font-size: 30px;
     cursor: pointer;
+}
+.fa{
+    
+    font-size: 30px;
+}
+.handles{
+    background-color: #e6e3e3;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20px;
 }
